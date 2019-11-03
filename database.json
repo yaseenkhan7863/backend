@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5dbd5885dbcf1a10143b8b9f"},"productname":"fan","productcode":"abc","producttype":"a","status":"accepted"}
+{"_id":{"$oid":"5dbd5917dbcf1a10143b8ba0"},"productname":"car","productcode":"123","producttype":"vehicle","status":"declined"}
+{"_id":{"$oid":"5dbe3c85ba2b431ca095d2f9"},"productname":"tv","productcode":"90","producttype":"electronic","status":"accepted"}
+{"_id":{"$oid":"5dbe3ca5ba2b431ca095d2fa"},"productname":"washing machine ","productcode":"67","producttype":"electronic","status":"declined"}
+{"_id":{"$oid":"5dbe3e013149131008af7714"},"productname":"bike","productcode":"23","producttype":"vehicle","status":"accepted"}
