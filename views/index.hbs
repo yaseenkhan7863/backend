@@ -1,0 +1,40 @@
+<div id="top">
+    <h1>Order Details</h1>  
+    <div id="search">
+        <form method="GET" action="/search">
+                
+                <input type="text" name="searchstr" placeholder="search producname"><br>
+                <button type="submit">search</button>
+            </form>
+    </div>
+</div>
+    <div id="table">
+        <table>
+                    <tr>
+                        <td>product Name</td>
+                        <td>product code</td>
+                        <td>product type</td>
+                        <td>status</td> 
+                    </tr>
+        {{# each items }}
+                 <tr>
+                        <td>{{ this.productname }}</td>
+                        <td>{{ this.productcode }}</td>
+                        <td>{{ this.producttype }}</td>
+                        <td>{{ this.status }}</td>
+                    </tr>
+               
+        {{/each}}
+         </table>
+    </div>
+    <div id="pagination">
+        <form method="POST" action="/pagination">
+            Start index:
+            <input type="number" name="startindex"><br>
+            End index:
+            <input type="number" name="endindex">
+            <br>
+            <button type="submit">get</button>
+        </form>
+
+    </div>
